@@ -20,9 +20,9 @@
 
 
     # functions
-def lemon(a,b):
+def lemon(a = "default",b = "default"):
     print('{},{}'.format(a,b))
-lemon("Hello", "World!")
+lemon("Hello")
 
 
 
