@@ -26,17 +26,21 @@
 # lemon("Hello")
 # lemon(a="Unique", b="Value Added")
 
-def radius(radius):
-    return 3.142 * radius * radius
-def volume(radius, length):
-    print("The total is:", int(radius(15)*length))
+# def radius(radius):
+#     return 3.142 * radius * radius
+# def volume(radius, length):
+#     print("The total is:", int(radius(15)*length))
 
+# length = 20
+# volume(radius,length)
 
-length = 20
-volume(radius,length)
-
-
-
+    # global variable scope
+def lime():
+    global lemon
+    lemon = "I am lemon"
+    print('some say',lemon)
+lime()
+print('some say',lemon)
 
 #     # format string
 # lemon = 1.23456
