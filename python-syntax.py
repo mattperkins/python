@@ -45,8 +45,12 @@
 
 
     # range // between 1 and 10 in steps of 3
-for n in range(1,10,3):
-    print(n)
+# for n in range(1,10,3):
+#     print(n)
+
+lemon = ["J", "P", "G", "R"]
+for n in range(len(lemon)):
+    print(n, lemon[n])
 
 
 #     # while loop
