@@ -34,13 +34,47 @@
 # length = 20
 # volume(radius,length)
 
-    # global variable scope
-def lime():
-    global lemon
-    lemon = "I am lemon"
-    print('some say',lemon)
-lime()
-print('some say',lemon)
+
+
+#     # global variable scope
+# def lime():
+#     global lemon
+#     lemon = "I am lemon"
+#     print('some say',lemon)
+# lime()
+# print('some say',lemon)
+
+
+
+#     # dictionaries
+# hometowns = {
+#     "fred" : "LA",
+#     "sandy" : "Berlin",
+#     "bob" : "NYC"
+# }
+# print(hometowns["sandy"])
+
+# print("fred" in hometowns)
+# print("bar" in hometowns)
+
+# print(hometowns.keys())
+#     # can be typecast to a list 
+#     # print(list(hometowns.keys()))
+# hometowns.values()
+# city_list = list(hometowns.values())
+# print(city_list)
+# print(city_list.count("LA"))
+
+#     # add to dictionary
+# hometowns["ty"] = "San Diego"
+# print(hometowns)
+
+#     # alternate way to create dictionary
+# person = dict(name="lottie", age="24", height="5.3")
+# print(person["age"])
+
+
+
 
 #     # format string
 # lemon = 1.23456
