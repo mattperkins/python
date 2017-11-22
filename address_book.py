@@ -1,3 +1,9 @@
+def contacts_count(dict):
+    people = list(dict.values())
+    for person in set(people):
+        num = people.count(person)
+        print("{} people live in {}".format(num,person))
+
 def contacts(dict):
     for key,val in dict.items():
         # print(f"My name is {key} and I live in {val}")
@@ -16,4 +22,5 @@ while True:
     else:
         break
 
-contacts(hometowns)
+contacts(hometowns) 
+contacts_count(hometowns)
