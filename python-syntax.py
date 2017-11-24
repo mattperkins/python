@@ -142,6 +142,24 @@
 
 
 
+        # classes
+class Lemon:
+    def __init__(self):
+     self.name = "Fred"
+     self.age = 34
+     self.city = "LA"
+    
+    def business(self):
+        return f"{self.name} works in {self.city}"
+
+lime = Lemon()
+print(f'{lime.name} is {lime.age}')
+print(lime.business())
+
+
+
+
+
 #     # sorting and sets
 # nums = [1,55,55,99,1,9,7,6,3]
 # print(sorted(nums))
