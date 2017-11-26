@@ -1,0 +1,4 @@
+This has been written from write_file.py
+Second line added
+Failure is the gateway to success
+Knoweth the man, knoweth the history

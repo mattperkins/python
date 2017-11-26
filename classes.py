@@ -43,8 +43,10 @@ print(f'{Bob.name} is a {Bob.species} and lives in {Bob.city}')
 
 Lottie = Person('Lottie', '27', 'London')
 print(f'{Lottie.name} knows {Lottie.classy()}')
-    
+
+    # using class method    
 print(Person.classy())
 
+    # using static method
 print(f'{Lottie.name} {Lottie.walk()}')
 print(f'{Bob.name} {Bob.walk("approx 1.5mph")}')
